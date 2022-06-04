@@ -1,0 +1,223 @@
+body{
+  margin:  0px;
+  background-color: #1A1A40;
+  text-align: center;
+  font-family: 'Montserrat',serif;
+
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Dancing Script',cursive;
+  color: #7C83FD;
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #7C83FD;
+}
+h3{
+  font-size: 1.8rem;
+  color: #FF8C8C;
+}
+p{
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+hr{
+  border: dotted #F4F4F4 8px;
+  border-bottom: none;
+  width: 3%;
+  margin: 60px auto;
+}
+a{
+  color: #F4F4F4;
+  font-family: 'Montserrat',serif;
+  text-decoration: none;
+}
+.top-cont{
+  <!-- background-image: url(../Images/buddy-stars.gif); -->
+  background-size: auto 40px;
+  background-color: #1A1A40;
+  position: relative;
+  background-repeat: repeat-x repeat-x;
+  padding-top: 100px;
+  padding-bottom: 60px;
+
+}
+.middle-cont{
+  color: #F7F6F2;
+  font-family: 'Montserrat';
+  padding-bottom: 70px;
+
+}
+.profile{
+  padding-bottom: 35px;
+
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.bottom-cont{
+  color: #F7F6F2;
+  font-family: 'Montserrat';
+  margin: 0px;
+}
+.contact-me{
+  padding-bottom: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.8;
+  padding-bottom: 45px
+}
+.top-cloud{
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+.night{
+  width: 45%;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.astronaut{
+  width: 20%;
+}
+.contact{
+  width: 30%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+.code{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.security{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+<!-- HTML !-->
+<button class="button-85" role="button">Button 85</button>
+
+/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn24 {
+  background-image: linear-gradient(
+      to right,
+      #6253e1,
+      #852d91,
+      #a3a1ff,
+      #f24645
+    );
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+
+
+ .flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.social-links{
+	display: flex;
+  justify-content: center;
+}
+
+.social-btn {
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #333;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	background: white;
+	margin: 5px;
+	transition: 1s;
+}
+
+.social-btn span {
+	width: 0px;
+	overflow: hidden;
+	transition: 1s;
+	text-align: center;
+}
+
+.social-btn:hover {
+	width: 150px;
+	border-radius: 5px;
+}
+
+.social-btn:hover span {
+	padding: 2px;
+	width: max-content;
+}
+
+#twitter svg {
+	fill: #1da1f2;
+}
+
+#linkedin svg {
+	fill: #0e76a8;
+}
+
+#github {
+	fill: #333;
+}
